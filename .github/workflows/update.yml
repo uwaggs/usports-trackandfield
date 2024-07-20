@@ -30,13 +30,13 @@ jobs:
         token: ${{ secrets.GH_TOKEN }}
 
 
-    - name: release - tnf_meet_rankings
-      id: tnf_meet_rankings
+    - name: release - tnf_meet_results
+      id: tnf_meet_results
       uses: softprops/action-gh-release@v2
       with:
         files: |
-          trackandfield/tnf_meet_rankings.csv
-        tag_name: tnf_meet_rankings
+          trackandfield/tnf_meet_results.csv
+        tag_name: tnf_meet_results
         token: ${{ secrets.GH_TOKEN }}
 
 
